@@ -1,0 +1,16 @@
+/* 배경 - background: color */
+.background_red{
+    background: red;
+}
+.background_yellow{
+    background-color: yellow;
+}
+.background_green{
+    background: green;
+}
+.background_navy{
+    background: navy;
+    /* px길이를 나타내는 단위 중 하나 */
+    width: 100px;
+    height: 100px;
+}

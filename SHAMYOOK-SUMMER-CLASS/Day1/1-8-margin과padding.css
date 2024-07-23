@@ -1,0 +1,21 @@
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box-margin {
+    margin: 40px;
+}
+
+.box-padding {
+    padding: 40px;
+}
+
+.border-box{
+    /* padding을 width와 height에 포함시키고싶을 때 */
+    box-sizing: border-box;
+}

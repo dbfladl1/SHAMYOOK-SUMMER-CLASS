@@ -1,0 +1,22 @@
+/* 가로길이 : width : 길이px */
+/* 세로길이 : height: 높이px */
+.width_100 {
+  width: 100px;
+  background: orange;
+}
+.height_100 {
+  height: 100px;
+  background: orange;
+}
+.width_height_100 {
+  width: 100px;
+  height: 100px;
+  background: orange;
+}
+.answer{
+    width: 300px;
+    height: 200px;
+    background: pink;
+    border: 1px solid red;
+    border-radius: 10px;
+}

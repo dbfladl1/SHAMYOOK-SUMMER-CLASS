@@ -1,0 +1,35 @@
+/* 테두리 - border: 두께(px) 속성(solid) 색상 */
+/* px, solid만 외워두고 나머지는 필요할때 찾아서 사용 */
+.border_red{
+    border: 1px solid red;
+}
+.border_orange{
+    border: 1px dashed orange;
+}
+.border_green{
+    border: 2px solid green;
+}
+.border_navy{
+    border: 1px dashed navy;
+    width: 100px;
+    height: 100px;
+}
+.border_radius{
+    border: 1px solid navy;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.border_radius2{
+    border: 1px solid navy;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.circle{
+    border: 1px solid navy;
+    width: 100px;
+    height: 100px;
+    /* 동그랗게 만들고싶으면 가로세로길이의 50% */
+    border-radius: 50px;
+}

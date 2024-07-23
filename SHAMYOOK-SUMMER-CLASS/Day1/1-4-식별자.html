@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>clss와 id속성</title>
+    <style>
+      /* 클래스 요소에 css 적용하기 */
+      .red {
+        /* 텍스트에 색상을 입히는 속성 */
+        color: red;
+      }
+      .blue {
+        color: blue;
+      }
+      #orange {
+        color: orange;
+      }
+      .box {
+        width: 200px;
+        height: 100px;
+        background-color: lightblue;
+        border: 2px solid blue;
+        margin: 20px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 일단 따라치기 -->
+    <!-- 식별자의 속성 -->
+    <h1>식별자에 대한 속성</h1>
+    <div>안녕하세요</div>
+    <!-- class 속성 -->
+    <div class="red">클래스 red</div>
+    <div class="blue">클래스 blue</div>
+    <div class="blue">클래스 blue</div>
+    <!-- id 속성 -->
+    <div id="orange">아이디 할당</div>
+    <!-- <div id="orange">안녕하세요</div> 에러는 안나지만 한 페이지에 같은 id는 중복될 수 없다. -->
+
+    <!-- 식별자는 동시에 여러개일 수 있다 -->
+    <div class="red box">클래스가 두개</div>
+  </body>
+</html>
